@@ -1,0 +1,19 @@
+<launch>
+  <node name ="my_pcl_tutorial" pkg="my_pcl_tutorial"
+    type="DEM_generation" output="screen"/>
+  <param name="/near_stereo/stereo_image_proc/P1" value="520.0"/>
+  <param name="/near_stereo/stereo_image_proc/P2" value="1320.0"/>
+  <param name="/near_stereo/stereo_image_proc/correlation_window_size" value="21"/>
+  <param name="/near_stereo/stereo_image_proc/disp12MaxDiff" value="0"/>
+  <param name="/near_stereo/stereo_image_proc/disparity_range" value="48"/>
+  <param name="/near_stereo/stereo_image_proc/fullDP" value="true"/>
+  <param name="/near_stereo/stereo_image_proc/min_disparity" value="2"/>
+  <param name="/near_stereo/stereo_image_proc/prefilter_cap" value="11"/>
+  <param name="/near_stereo/stereo_image_proc/prefilter_size" value="53"/>
+  <param name="/near_stereo/stereo_image_proc/queue_size" value="50"/>
+  <param name="/near_stereo/stereo_image_proc/speckle_range" value="8"/>
+  <param name="/near_stereo/stereo_image_proc/speckle_size" value="140"/>
+  <param name="/near_stereo/stereo_image_proc/stereo_algorithm" value="1"/>
+  <param name="/near_stereo/stereo_image_proc/texture_threshold" value="10"/>
+  <param name="/near_stereo/stereo_image_proc/uniqueness_ratio" value="8.0"/>
+</launch>
